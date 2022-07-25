@@ -1,7 +1,7 @@
 # NYC-green-Infrastructure
-This repository includes all the code for the report and policy brief, "Analyzing Green Infrastructure (GI) Progress and Trends in New York City" by Hannah Crane for Policy and Data Studio.
+This repository includes all the code for the report and policy brief, Analyzing Green Infrastructure (GI) Progress and Trends in New York City by Hannah Crane for Policy and Data Studio Summer 2022.
 # Project Description
-Green infrastructure by definition is an array of practices that use or mimic natural systems to manage stormwater runoff and is critical to lessening the impact of rainstorms and floods on New York City's aging sewer system and infrastructure. This analysis used data analysis and visualizaition programs to look at how New York City is progressing on its green infrastructure commitments, which types of green infrastructure projects are most common and where most projects are taking place, by borough and by neighborhood tabulation area (NTA). In the analysis I  included data on street flooding complaints and median income to see how (and if) green infrastructure projects were correlated to those variables.
+Green infrastructure is an array of practices that use or mimic natural systems to manage stormwater runoff, and is critical to lessening the impact of rainstorms and floods on New York City's infrastructure. This analysis uses data analysis and visualizaition programs to observe how New York City is progressing on its green infrastructure commitments, which types of green infrastructure projects are most common, and where most projects are taking place, by borough and by neighborhood tabulation area (NTA). In the analysis, I  included data on street flooding complaints and median income to see how (and if) green infrastructure projects were correlated to those variables.
 # Running the Analysis
 
 Step 1 - Installing Programs
@@ -28,8 +28,8 @@ This step is necessary to performt the NTA level analysis.
 I also performed the same actions to sum the complaint counts by NTA to perform the analysis on line 156.
 
 Step 4 - Visualizations
-After performing the analysis and data cleaning in R, I exported the dataframes of interest and used Data Wrapper and Tableau to create visualizations.
+After performing the analysis and data cleaning in R, I exported the dataframes of interest and used [Data Wrapper](https://www.datawrapper.de/) and [Tableau](https://www.tableau.com/) to create visualizations.
 
 
 
-# Questions about the data or analysis? Contact Hannah at hic2017@nyu.edu
+# Questions about the data or analysis? Contact Hannah Crane at hic2017@nyu.edu
