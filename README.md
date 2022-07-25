@@ -1,4 +1,4 @@
-# NYC-green-Infrastructure
+# Greening the Big Apple
 This repository includes all the code for the report and policy brief, Analyzing Green Infrastructure (GI) Progress and Trends in New York City by Hannah Crane for Policy and Data Studio Summer 2022.
 # Project Description
 Green infrastructure is an array of practices that use or mimic natural systems to manage stormwater runoff, and is critical to lessening the impact of rainstorms and floods on New York City's infrastructure. This analysis uses data analysis and visualizaition programs to observe how New York City is progressing on its green infrastructure commitments, which types of green infrastructure projects are most common, and where most projects are taking place, by borough and by neighborhood tabulation area (NTA). In the analysis, I  included data on street flooding complaints and median income to see how (and if) green infrastructure projects were correlated to those variables.
