@@ -21,13 +21,15 @@ Step 2 - Downloading the Data to your local computer:
 [NTA Shapefile](https://data.cityofnewyork.us/City-Government/2010-Neighborhood-Tabulation-Areas-NTAs-/cpf4-rkhq) 
 
 Step 3 - Running R Script
-Run the analysis in R using the script.
 
-Please note that on line 130, I used QGIS to layer greate a CSV of green infrastructure counts by NTA. To do this, I imported a shapefile of NYC NTAs and a cleaned Green Infrastructure CSV into QGIS. I used the count points in polygon tool under "Analysis Tools" in QGIS to get the count of complaints by NTA, then exported that as a CSV. 
+Run the analysis in R using the script provided in this repository, make sure that you have the data in your R Directory .
+
+Please note that on line 130, I used QGIS to  create a CSV of green infrastructure counts by NTA. To do this, I imported a shapefile of NYC NTAs and a cleaned (in R) Green Infrastructure CSV into QGIS. The Green Infrastructure CSV includes coordinates which is necessary for this step. I used the Count Points in Polygon tool under Analysis Tools in QGIS to get the count of complaints by NTA, then exported that as a CSV. 
 This step is necessary to performt the NTA level analysis.
-I also performed the same actions to sum the complaint counts by NTA to perform the analysis on line 156.
+I also performed the same actions to sum the complaint counts by NTA to perform the analysis on/after line 156.
 
 Step 4 - Visualizations
+
 After performing the analysis and data cleaning in R, I exported the dataframes of interest and used [Data Wrapper](https://www.datawrapper.de/) and [Tableau](https://www.tableau.com/) to create visualizations.
 
 
